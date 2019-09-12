@@ -13,6 +13,7 @@ RUN add-apt-repository ppa:canonical-chromium-builds/stage
 
 RUN apt-get update && apt-get install -y \
   chromium-browser  \
+  jq \
   && rm -r /var/lib/apt/lists/*
 
 
