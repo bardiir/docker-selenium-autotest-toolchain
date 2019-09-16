@@ -17,7 +17,7 @@ RUN apt-get update && apt-get install -y \
   jq \
   && rm -r /var/lib/apt/lists/*
 
-RUN npm install -g selenium-side-runner lighthouse html-validator-cli
+RUN npm install -g selenium-side-runner lighthouse html-validator-cli broken-link-checker
 
 # Set correct entrypoint
 CMD ["/bin/bash"]
