@@ -4,6 +4,7 @@ FROM ubuntu:bionic
 RUN apt-get update && apt-get install -y \
   vim \
   curl \
+  git \
   software-properties-common \
   && rm -r /var/lib/apt/lists/*
 
